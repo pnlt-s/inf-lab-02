@@ -1,7 +1,7 @@
 #!/bin/sh
 touch new
 mv new old
-echo "uwu" > old
+echo "haha" > old
 rm old
 mkdir owo
 cd owo
