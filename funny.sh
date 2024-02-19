@@ -10,10 +10,13 @@ cp file file2
 cat file2 > file3
 chmod +x file3
 ps > processes
-chown uwu:users processes
+chown pnlt:users processes
 ls > files
 tar -c . -f ../archive.tar.gz
 cd ../
-tar -x -f archive.tar.gz -d archive
+mkdir archive
+cd archive
+tar -x -f ../archive.tar.gz
+cd ../
 rm -rf owo
 
